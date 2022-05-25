@@ -11,6 +11,13 @@ import Footer from './Page/Shared/Footer/Footer';
 import Navber from './Page/Shared/Navber/Navber';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from './Page/Dashboard/Dashboard';
+import MyProfile from './Page/Dashboard/MyProfile';
+import MakeAdmin from './Page/Dashboard/MakeAdmin';
+import MyOrders from './Page/Dashboard/MyOrders';
+import ManageProduct from './Page/Dashboard/ManageProduct';
+import ManageAllOrders from './Page/Dashboard/ManageAllOrders';
+import Blogs from './Page/Home/Blogs/Blogs';
 
 function App() {
   return (
@@ -25,9 +32,26 @@ function App() {
             <Parts />
           </RequireAuth>
         } />
+        <Route path="/dashboard" element={
+          <RequireAuth>
+            <Dashboard />
+          </RequireAuth>
+        } />
+
+        <Route path="dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} >
+          <Route index element={<MyProfile></MyProfile>}></Route>
+          <Route path="myorders" element={<MyOrders></MyOrders>}></Route>
+          <Route path="manageproduct" element={<ManageProduct></ManageProduct>}></Route>
+          <Route path="manageallorders" element={<ManageAllOrders></ManageAllOrders>}></Route>
+          <Route path="makeadmin" element={<MakeAdmin></MakeAdmin>}></Route>
+
+        </Route>
+
+
 
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
 
 
 

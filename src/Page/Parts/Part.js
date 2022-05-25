@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Part = ({ part, setBuynow }) => {
-    const { productName, price, description, img } = part;
+    const { productName, price, minQty, availableQty, description, img } = part;
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
@@ -9,13 +9,16 @@ const Part = ({ part, setBuynow }) => {
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{productName}</h2>
-                <p>${price}</p>
+                <p><small>{description}</small></p>
+                <h3>Available: {availableQty}</h3>
+                <h3>Minimum orders: {minQty}</h3>
+                <h4>Price: ${price}</h4>
 
                 <div className="card-actions">
 
 
 
-                    <label onClick={() => setBuynow(part)} for="Buy-modal" class="btn btn-primary">BUY NOW</label>
+                    <label onClick={() => setBuynow(part)} for="Buy-modal" class="btn btn-primary">PURCHASH</label>
 
                 </div>
             </div>
