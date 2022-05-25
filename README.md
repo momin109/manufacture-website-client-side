@@ -11,6 +11,7 @@ Live website link : ()
 - Create Login , Sign Up component setup route
 - attach form field handler and form sumbit handler
 - npm install --save react-firebase-hooks
+- deploy firebase
 
 In the project directory, you can run:
 
