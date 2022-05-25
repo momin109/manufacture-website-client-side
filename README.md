@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# juntrick
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live website link : ()
 
-## Available Scripts
+## this is project I used :
+- create new firebase project 
+- npm install firebase
+- firebase setting> go to Authentication 
+- Create Login , Sign Up component setup route
+- attach form field handler and form sumbit handler
+- npm install --save react-firebase-hooks
 
 In the project directory, you can run:
 
