@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "1",
+        "productName": "Circuler saw",
+        "price": "1130",
+        "qty": "",
+        "img": "https://i.ibb.co/CbYDp1P/a.webp",
+        "description": "Sawing plywood by circular saw. Home repair. Hand tool. Man hold equipment. Building process. Woodworking. Safety engineering. Without gloves. Copy space. Indoor. Cutting material. Rental instrument"
+    },
+    {
+        "_id": "2",
+        "productName": "Wood cutter",
+        "price": "1226",
+        "qty": "",
+        "img": "https://i.ibb.co/gy7MRSv/1-15.jpg",
+        "description": "A Wood cutter saw is a power-saw using a toothed or abrasive disc or blade to cut different materials using a rotary motion spinning around an arbor"
+    },
+    {
+        "_id": "3",
+        "productName": "Hand Tools",
+        "price": "525",
+        "qty": "",
+        "img": "https://i.ibb.co/5ThG55y/1-12.jpg",
+        "description": " A hole saw and ring saw also use a rotary motion but are different from a circular saw. Circular saws may also be loosely used for the blade itsel "
+    },
+    {
+        "_id": "4",
+        "productName": "Drill Machine",
+        "price": "720",
+        "qty": "",
+        "img": "https://i.ibb.co/QnvDkwp/1-2.jpg",
+        "description": "Technical Specifications Rated Power Input [W] 280No-Load Speed [r/min] 0-800 Max. Drilling Capacity [mm] 10 Net Weight"
+    },
+    {
+        "_id": "5",
+        "productName": "Hand Tools",
+        "price": "820",
+        "qty": "",
+        "img": "https://i.ibb.co/p27JG6P/1-3-1-1-1-1.jpg",
+        "description": "Whether you find yourself grabbing a handful of candy at the movies or making a beeline for the chips"
+    },
+    {
+        "_id": "6",
+        "productName": "Grinder Machine",
+        "price": "650",
+        "qty": "",
+        "img": "https://i.ibb.co/DRNhqSP/1-5.jpg",
+        "description": "Many children in America eat large amounts of junk food, and this can cause health problems."
+    }
+]
