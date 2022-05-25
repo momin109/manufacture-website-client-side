@@ -6,6 +6,8 @@ Live website link : ()
 - create new firebase project 
 - npm install firebase
 - firebase setting> go to Authentication 
+- create dashbord and My Profile, My Orders , Manage Product
+- Create Dashboard and make admin component
 - Create Login , Sign Up component setup route
 - attach form field handler and form sumbit handler
 - npm install --save react-firebase-hooks
