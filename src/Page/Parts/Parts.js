@@ -7,7 +7,7 @@ const Parts = () => {
     const [buynow, setBuynow] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://salty-oasis-13146.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
