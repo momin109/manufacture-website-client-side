@@ -18,6 +18,7 @@ import MyOrders from './Page/Dashboard/MyOrders';
 import ManageProduct from './Page/Dashboard/ManageProduct';
 import ManageAllOrders from './Page/Dashboard/ManageAllOrders';
 import Blogs from './Page/Home/Blogs/Blogs';
+import Portfolia from './Page/Home/Portfolia/Portfolia';
 
 function App() {
   return (
@@ -48,10 +49,11 @@ function App() {
         </Route>
 
 
-
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/portfolio' element={<Portfolia></Portfolia>}></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+
 
 
 
