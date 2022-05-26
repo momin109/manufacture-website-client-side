@@ -3,7 +3,7 @@ import React from 'react';
 const Portfolia = () => {
     return (
         <div>
-            <h3>tis</h3>
+            <h3>Your Profile</h3>
         </div>
     );
 };
