@@ -17,9 +17,10 @@ const Portfolia = () => {
     return (
         <div>
             <form className='grid grid-cols-1 gap-3 justify-items-center mt-2'>
-                <input type="text" name='name' class="input input-bordered w-full max-w-xs" disabled value={user?.displayName || ''} />
-                <input type="text" name='email' disabled value={user?.email || ''} class="input input-bordered w-full max-w-xs" />
-                <input type="text" name='email' disabled value={user?.email || ''} class="input input-bordered w-full max-w-xs" />
+
+                <h1 className='text-2xl font-bold '>{user.displayName || ''}</h1>
+                <h2>{user.email || ''}</h2>
+                <h3>{user.address}</h3>
             </form>
         </div>
     );
