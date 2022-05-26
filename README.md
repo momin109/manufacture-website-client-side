@@ -1,6 +1,6 @@
 # juntrick
 
-Live website link : ()
+Live website link : https://assignment12-4428c.web.app
 
 ## this is project I used :
 - create new firebase project 
