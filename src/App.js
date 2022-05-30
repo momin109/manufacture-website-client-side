@@ -20,6 +20,7 @@ import ManageAllOrders from './Page/Dashboard/ManageAllOrders';
 import Blogs from './Page/Home/Blogs/Blogs';
 import Portfolia from './Page/Home/Portfolia/Portfolia';
 import AddRevies from './Page/Dashboard/AddRevies';
+import About from './Page/Home/About';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
 
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/portfolio' element={<Portfolia></Portfolia>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
 
