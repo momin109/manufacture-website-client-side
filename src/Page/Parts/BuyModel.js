@@ -29,7 +29,7 @@ const BuyModel = ({ part, buynow, setBuynow }) => {
             address: event.target.address.value
         }
 
-        fetch('http://localhost:5000/placeOrder', {
+        fetch('https://shielded-wildwood-35239.herokuapp.com/placeOrder', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

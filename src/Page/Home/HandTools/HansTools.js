@@ -6,7 +6,7 @@ const HansTools = () => {
 
 
     useEffect(() => {
-        fetch('https://salty-oasis-13146.herokuapp.com/service')
+        fetch('https://shielded-wildwood-35239.herokuapp.com/')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
