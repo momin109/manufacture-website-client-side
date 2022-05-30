@@ -14,7 +14,7 @@ const Navber = () => {
 
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/parts">Tools</Link></li>
+        <li><Link to="/parts">Purches</Link></li>
         {
             user && <li><Link to="/dashboard">Dashboard</Link></li>
         }

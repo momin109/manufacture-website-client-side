@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
+import AddReview from '../AddReview/AddReview';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import HansTools from '../HandTools/HansTools';
@@ -14,6 +14,7 @@ const Home = () => {
                 <Services></Services>
                 <HansTools></HansTools>
                 <Info></Info>
+                <AddReview></AddReview>
                 <Contact></Contact>
 
             </div>
